@@ -58,13 +58,18 @@
     <main>
         <section class="hero">
            <div class="container hero-container">
+             <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
                <div class="hero-descr">
-                    <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
-                    <p class="her-text">With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.</p>
-                    <button class="nav-button" type="button">Order Now</button>
+                    <p class="hero-text">With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter where you are. Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.</p>
+                    <button class="hero-button" type="button">Order Now</button>
                </div>
-                <img class="img-plate" src="./images/plate-min.jpg" alt="salat" width="528" height="528"
-                srcset="./images/plate@2x-min.jpg">
+               <div class="main-dish">
+                    <picture>
+                       <source srcset="./images/dish-t-min.jpg 1x, ./images/dish-t@2x-min 2x" media="(max-width:1280px)">
+                      <img class="img-plate" src="./images/plate-min.jpg" alt="salat" width="528" height="528"
+                      srcset="./images/plate@2x-min.jpg">
+                    </picture>
+               </div>
            </div>
         </section>
        <section class="offerings">
@@ -118,11 +123,11 @@
                    srcset="./images/Pasta@2x-min.jpg"></a></li>
                 <li class="favorites-list-item"><a href=""><img class="img-plates" src="./images/pizza-min.jpg" alt="pizza" width="315" height="315"
                    srcset="./images/pizza@2x-min.jpg"></a></li>
-                <li class="favorites-list-item"><a href=""><img class="img-plates" src="./images/chicken-min.jpg" alt="chicken" width="315" height="315"
+                <li class="favorites-list-item"><a href=""><img class="img-plates not-mobile" src="./images/chicken-min.jpg" alt="chicken" width="315" height="315"
                   srcset="./images/chicken@2x-min.jpg"></a></li>
-                <li class="favorites-list-item"><a href=""><img class="img-plates" src="./images/salat-min.jpg" alt="salat" width="315" height="315"
+                <li class="favorites-list-item"><a href=""><img class="img-plates not-mobile" src="./images/salat-min.jpg" alt="salat" width="315" height="315"
                   srcset="./images/salat@2x-min.jpg"></a></li>
-                <li class="favorites-list-item"><a href=""><img class="img-plates" src="./images/borshch-min.jpg" alt="borshch" width="315" height="315"
+                <li class="favorites-list-item"><a href=""><img class="img-plates not-mobile" src="./images/borshch-min.jpg" alt="borshch" width="315" height="315"
                   srcset="./images/borshch@2x-min.jpg"></a></li>
             </ul>
        </div>
@@ -178,7 +183,8 @@
                     <button class="subscribe-button" type="button">Subscribe</button>
                 </form>
            </div>
-            <img class="img-banan" src="./images/banan-min.jpg" alt="banan" width="608" height="266">
+            <img class="img-banan" src="./images/banan-min.jpg" alt="banan" width="608" height="266"
+            srcset="./images/banan@2x-min.jpg">
         </div>
       </section>
           <footer class="froot-footer">
