@@ -25,7 +25,7 @@
                     <use href="./images/icons.svg#icon-gg_menu"></use>
                   </svg>
                 </button>
-                  <div class="mobile-menu-nav is-open">
+                  <div class="mobile-menu-nav is-open" >
           <button class="button-close" type="button">
            <svg class="icon-close" width="24" height="24">
                 <use href="./images/icons.svg#icon-Frame-17"></use>
@@ -64,23 +64,32 @@
                     <button class="hero-button" type="button">Order Now</button>
                </div>
                <div class="main-dish">
-                    <picture>
-                       <source srcset="./images/dish-t-min.jpg 1x, ./images/dish-t@2x-min 2x" media="(max-width:1280px)">
+                    <picture> 
+                      <source  media="(max-width:1280px)" srcset="./images/dish-t-min.jpg 1x, ./images/dish-t@2x-min.jpg 2x">
                       <img class="img-plate" src="./images/plate-min.jpg" alt="salat" width="528" height="528"
                       srcset="./images/plate@2x-min.jpg">
+                      
                     </picture>
                </div>
            </div>
         </section>
        <section class="offerings">
        <div class="container offerings-container">
+        <div class="mobile-img">
+             <picture>
+              <source media="(max-width:768px)" srcset="./images/aple-m-min.jpg 1x, ./images/aple-m@2x-min.jpg 2x" >
+               <source media="(max-width:1280px)" srcset="./images/aple-t-min.jpg 1x, ./images/aple-t@2x-min.jpg 2x" >
+               <img class="apple" src="./images/apple.png" alt="aple" width="396" height="502"
+                 srcset="./images/aple@2x-min.png">
+             </picture> 
+            </div>
           <div class="img-plate-apple">  
             <img class="apple" src="./images/apple.png" alt="aple" width="396" height="502"
-             srcset="./images/aple@2x-min.png">
-            <div class="apple-border">
+                 srcset="./images/aple@2x-min.png"> 
+                 <div class="apple-border">
               <div class="apple-background"></div>
             </div>
-        </div>
+           </div>
             <div class="offerings-title">
                 <h2 class="offerings-header">What’s Special About Our Offerings</h2>
                 <p class="offerings-header-text">With our platform, you can browse through a diverse selection of cuisines and local restaurants, and choose from a variety of dishes that cater to your specific taste buds.</p>
@@ -105,7 +114,10 @@
                         <p class="offerings-item-text">You can browse through a wide variety of cuisines and restaurants, select your favorite meals, and place your order in just a few clicks.</p>
                     </li>
                 </ul> 
-                <button class="offering-button" type="button">Order Now</button>
+               <div class="button-item">
+                  <button class="offering-button" type="button">Order Now</button>
+                  <p class="button-text">Read More</p>
+               </div>
             </div>
        </div>
     </div>
@@ -117,18 +129,63 @@
                 <p class="favorites-text">Looking for something delicious? </p>
            </div>
             <ul class="favorites-list">
-                <li class="favorites-list-item"><a href=""><img class="img-plates" src="./images/gamburger-min.jpg" alt="gamburger" width="315" height="315"
-                   srcset="./images/gamburger@2x-min.jpg"></a></li>
-                <li class="favorites-list-item"><a href=""><img class="img-plates" src="./images/Pasta-min.jpg" alt="Pasta" width="315" height="315"
-                   srcset="./images/Pasta@2x-min.jpg"></a></li>
-                <li class="favorites-list-item"><a href=""><img class="img-plates" src="./images/pizza-min.jpg" alt="pizza" width="315" height="315"
-                   srcset="./images/pizza@2x-min.jpg"></a></li>
-                <li class="favorites-list-item"><a href=""><img class="img-plates not-mobile" src="./images/chicken-min.jpg" alt="chicken" width="315" height="315"
-                  srcset="./images/chicken@2x-min.jpg"></a></li>
-                <li class="favorites-list-item"><a href=""><img class="img-plates not-mobile" src="./images/salat-min.jpg" alt="salat" width="315" height="315"
-                  srcset="./images/salat@2x-min.jpg"></a></li>
-                <li class="favorites-list-item"><a href=""><img class="img-plates not-mobile" src="./images/borshch-min.jpg" alt="borshch" width="315" height="315"
-                  srcset="./images/borshch@2x-min.jpg"></a></li>
+                <li class="favorites-list-item"><a href="">
+                  <div>
+                    <picture>
+                       <source media="(max-width:768px)" srcset="./images/gamburger-m-min.jpg 1x, ./images/gamburger-m@2x-min.jpg 2x" >
+               <source media="(max-width:1280px)" srcset="./images/gamburger-t-min.jpg 1x, ./images/gamburger-t@2x-min.jpg 2x" >
+                      <img class="img-plates" src="./images/gamburger-min.jpg" alt="gamburger" width="315" height="315"
+                       srcset="./images/gamburger@2x-min.jpg">
+                    </picture>
+                  </div>
+                  </a></li>
+                <li class="favorites-list-item"><a href="">
+                 <div>
+                    <picture>
+                       <source media="(max-width:768px)" srcset="./images/pasta-m-min.jpg 1x, ./images/pasta-m@2x-min.jpg 2x" >
+                   <source media="(max-width:1280px)" srcset="./images/pasta-t-min.jpg 1x, ./images/pasta-t@2x-min.jpg 2x" >
+                      <img class="img-plates" src="./images/pasta-min.jpg" alt="pasta" width="315" height="315"
+                       srcset="./images/pasta@2x-min.jpg">
+                    </picture>
+                 </div>
+                  </a></li>
+                <li class="favorites-list-item"><a href="">
+                <div>
+                   <picture>
+                       <source media="(max-width:768px)" srcset="./images/pizza-m-min.jpg 1x, ./images/pizza-m@2x-min.jpg 2x" >
+                   <source media="(max-width:1280px)" srcset="./images/pizza-t-min.jpg 1x, ./images/pizza-t@2x-min.jpg 2x" >
+                      <img class="img-plates" src="./images/pizza-min.jpg" alt="pizza" width="315" height="315"
+                       srcset="./images/pizza@2x-min.jpg">
+                   </picture>
+                </div>
+                </a></li>
+                <li class="favorites-list-item not-mobile"><a href="">
+                   <div>
+                      <picture>
+                   <source media="(max-width:1280px)" srcset="./images/chicken-t-min.jpg 1x, ./images/chicken-t@2x-min.jpg 2x" >
+                      <img class="img-plates" src="./images/chicken-min.jpg" alt="chicken" width="315" height="315"
+                      srcset="./images/chicken@2x-min.jpg">
+                      </picture>
+                   </div>
+                </a></li>
+                <li class="favorites-list-item not-mobile"><a href="">
+                <div>
+                  <picture>
+                   <source media="(max-width:1280px)" srcset="./images/salat-t-min.jpg 1x, ./images/salat-t@2x-min.jpg 2x" >
+                      <img class="img-plates" src="./images/salat-min.jpg" alt="salat" width="315" height="315"
+                      srcset="./images/salat@2x-min.jpg">
+                  </picture>
+                </div>
+                </a></li>
+                    <li class="favorites-list-item not-mobile"><a href="">
+                        <div>
+                      <picture>
+                   <source media="(max-width:1280px)" srcset="./images/borshch-t-min.jpg 1x, ./images/borshch-t@2x-min.jpg 2x" >
+                      <img class="img-plates" src="./images/borshch-min.jpg" alt="borshch" width="315" height="315"
+                      srcset="./images/borshch@2x-min.jpg">
+                  </picture>
+                </div>
+                </a></li>
             </ul>
        </div>
       </section>
@@ -156,7 +213,6 @@
                 </li>
                  <li class="customers-list">
                 <div class="customers-list-container">
-
                          <svg class="icon-area" width="101" height="16.323">
                          <use href="images/icons.svg#icon-Stars"></use>
                     </svg>
@@ -183,8 +239,16 @@
                     <button class="subscribe-button" type="button">Subscribe</button>
                 </form>
            </div>
-            <img class="img-banan" src="./images/banan-min.jpg" alt="banan" width="608" height="266"
-            srcset="./images/banan@2x-min.jpg">
+          <div>
+            <picture>
+                <source media="(max-width: 768px)" srcset="./images/banan-m-min.jpg 1x,
+                  ./images/banan-m@2x-min.jpg 2x" width="280" height="78">
+                   <source media="(max-width: 1158px)" srcset="./images/banan-t-min.jpg 1x,
+                  ./images/banan-t@2x-min.jpg 2x" width="281" height="136">
+                <img class="banan" src="./images/banan-min.jpg" alt="banan" width="608" height="266"
+                srcset="./images/banan@2x-min.jpg">
+            </picture>
+          </div>
         </div>
       </section>
           <footer class="froot-footer">
@@ -214,12 +278,13 @@
                         <li class="footer-service-list"><a href=""></a>Terms of Service</li>
                         <li class="footer-service-list"><a href=""></a>Cookies Settings</li>
                     </ul>
-                    <p class="footer-text">2022 FoodSta. All right reserved.</p>
+                    <p class="footer-txt">2022 FoodSta. All right reserved.</p>
                </div>
-      </div>
+      </div> 
+     </footer>
     </main>
-      </footer>
- <div class="hiden-backdrop is-open" hidden>
+    
+ <div class="hiden-backdrop " >
      <div class="form-container"> 
        <button class="content-close" type="button" >
               <svg class="icon-close" width="24" height="24">
@@ -247,6 +312,5 @@
       </form>
      </div>
   </div>
-   </div>
 </body>
 </html>
