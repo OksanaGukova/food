@@ -222,6 +222,10 @@ cursor: pointer;
 margin-bottom: 219px;
 }
 
+.hero-button:hover, .hero-button:active{
+  background-color: #FFE450;
+}
+
 @media screen and (max-width: 1280px) {
   .hero-button{
     margin-top: 40px;
@@ -257,12 +261,14 @@ margin: 0 auto;
 .img-plate:hover, .img-plate:active{
   border: 26px solid #BBF330;
 }
-.main-dish{
 
+.main-dish{
     position: absolute;
     top: 14px;
     right: 30px;
 }
+
+
 @media screen and (max-width: 1280px) {
   .main-dish{
 top: 149px;
@@ -270,12 +276,53 @@ right: 8px;
 
   }
 }
-@media screen and (max-width: 768px) {
-   .main-dish{
+
+.icon-left{
+ transform: scaleX(-1);
+}
+
+.icon-right:hover{
+  fill: #7EB101;
+}
+
+.icon-left:hover{
+  fill: #7EB101;
+}
+
+.button-left
+ {
+     position: absolute;
+    top: 46%;
+    transform: scaleX(-1);
+    transform: translateX(-5px);
+    background-color: #FFF;
+    border: none;
+      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-right{
+     position: absolute;
+      top: 45%;
+    transform: translateX(1150%);
+       background-color: #FFF;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1280px) {
+   .button-left, .button-right {
     display: none;}
    }
 
-
+   @media screen and (max-width: 768px) {
+.main-dish{
+display: none;
+}
+   }
 
 
 /*--------------offerings-----------------*/
@@ -493,17 +540,31 @@ font-weight: 500;
 line-height: 1.5;
 }
 
+@media screen and (max-width: 1280px){
+  .offering-button{
+    margin-right: 24px;
+  }
+}
+
+.button-text{
+  margin-right: 4px;
+
+}
+
  @media screen and (max-width: 1280px){
  .button-item{
   display: flex;
   align-items: center; 
-   gap: 24px;
+  
  }
 }
 
- @media screen and (min-width: 1279px)
+ @media screen and (min-width: 1280px)
  {
 .button-text{
+  display: none;
+}
+.read-icon{
   display: none;
 }
  }
@@ -1168,7 +1229,7 @@ pointer-events: none;
 background-color: rgba(94, 99, 99, 0.70);
 
 }
-.is-open {
+.is-hidden {
    visibility: visible;
   opacity: 1;
  pointer-events: auto;
@@ -1316,7 +1377,7 @@ font-weight: 700;
   padding: 16px 0 16px;
 }
 
-.mobile-button:active .mobile-nav-icon{
+.mobile-nav-icon:active{
 fill: #FFE550;
 }
 

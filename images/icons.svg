@@ -34,6 +34,15 @@
 <feComposite in2="hardAlpha" operator="out"/>
 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3909_6"/>
+ <symbol id="icon-button" viewBox="0 0 19 32">
+      <path d="M17.903 15.592a1.264 1.264 0 0 1 0 1.788L5.015 30.268a1.264 1.264 0 0 1-1.788 0l-.596-.596a1.264 1.264 0 0 1 0-1.788L14.03 16.486 2.631 5.087a1.264 1.264 0 0 1 0-1.788l.596-.596a1.264 1.264 0 0 1 1.788 0l12.888 12.888z"/>
+    </symbol>
+    <symbol id="icon-left" viewBox="0 0 17 32">
+      <path fill="#fff" stroke="#000" stroke-width="1.454" d="M1.105 16.395a.548.548 0 0 1-.125-.61.55.55 0 0 1 .125-.18L15.291 2.089a.545.545 0 0 1 .747-.005l.008.008.014.013a.442.442 0 0 1 0 .644l-.001.001L2.148 15.999 16.06 29.254a.442.442 0 0 1 0 .644l-.013.013-.008.008a.543.543 0 0 1-.747-.005L1.106 16.398z" style="fill:var(--color1, #fff)"/>
+    </symbol>
+    <symbol id="icon-right" viewBox="0 0 17 32">
+      <path fill="#fff" stroke="#000" stroke-width="1.454" d="M16.349 15.605a.548.548 0 0 1 .125.61.55.55 0 0 1-.125.18L2.163 29.911a.543.543 0 0 1-.747.005l-.008-.008-.014-.013a.442.442 0 0 1 0-.644l.001-.001 13.911-13.249L1.394 2.746a.442.442 0 0 1 0-.644l.021-.021a.545.545 0 0 1 .747.005l14.186 13.516z" style="fill:var(--color1, #fff)"/>
+    </symbol>
   </defs>
 </svg>
   
